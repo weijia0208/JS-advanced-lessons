@@ -5,12 +5,9 @@ function foo(x) {
     x = 2;//step 2222
     console.trace("a:",a," x:",x);//step 3333
 }
-
 console.trace("a:",a);
 foo(a);// step 1111
 console.trace("a:",a); // step 4444  a仍为1
-
-
 
 //引用传递
 var obj = {x:1};
